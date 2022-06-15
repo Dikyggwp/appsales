@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#12de3a</color>
+    <color name="colorPrimaryDark">#09DF33</color>
+    <color name="colorAccent">#18DD3E</color>
+    <color name="inputborder">#EBEBF6</color>
+    <color name="inputGradient">#E9ECFA</color>
+    <color name="clinput">#F5F5FA</color>
+
+    <color name="colorWhite">#FFFFFF</color>
+    <color name="colorYellow">#FFC107</color>
+    <color name="clyellowdark">#FF9800</color>
+    <color name="black">#656565</color>
+    <color name="main_blue_color">#2469df</color>
+    <color name="grey_darken_4">#DCDCDC</color>
+
+    <color name="btnPrimary">#3F51B5</color>
+    <color name="btnPrimarysadow">#394CB8</color>
+    <color name="greennew">#9FEDAE</color>
+    <color name="btnDanger">#E31202</color>
+</resources>

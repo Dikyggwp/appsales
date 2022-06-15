@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.app.mobiledev.salesapp">
+
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_logofix"
+        android:label="@string/app_name"
+        android:networkSecurityConfig="@xml/network_security_config"
+        android:roundIcon="@mipmap/ic_logofix_round"
+        android:theme="@style/AppTheme"
+        android:usesCleartextTraffic="true"
+        tools:ignore="AllowBackup,GoogleAppIndexingWarning"
+        tools:replace="android:icon"
+        tools:targetApi="n">
+        <activity
+            android:name=".po.AddNpwp"
+            android:label="@string/title_activity_add_npwp"
+            android:theme="@style/AppTheme.NoActionBar"></activity>
+        <activity android:name=".stok.Stok" />
+        <activity android:name=".so.SO" />
+        <activity android:name=".kunjungan.UnplanAdd" />
+        <activity android:name=".kunjungan.kunjunganUnplan" />
+        <activity android:name=".kunjungan.ListKunjungan" />
+        <activity android:name=".outlet.Outlet" />
+        <activity android:name=".unplan.UnplanActivity" />
+        <activity android:name=".plan.PlanActivity" />
+        <activity
+            android:name=".po.PO"
+            android:label="Form Order PO" />
+        <activity android:name=".aktifitas.Logbook" />
+        <activity
+            android:name=".update_layout"
+            android:theme="@style/Theme.AppCompat.NoActionBar" />
+        <activity
+            android:name=".splashScreen"
+            android:theme="@style/Theme.AppCompat.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="@string/google_maps_key" />
+        <meta-data
+            android:name="com.google.android.gms.vision.DEPENDENCIES"
+            android:value="face" />
+
+        <activity
+            android:name=".login"
+            android:theme="@style/Theme.AppCompat.NoActionBar" />
+        <activity
+            android:name=".aktifitas.Aktivitas"
+            android:theme="@style/Theme.AppCompat.NoActionBar" />
+        <activity
+            android:name=".kunjungan.kunjungan"
+            android:theme="@style/Theme.AppCompat.NoActionBar" />
+        <activity
+            android:name=".fragment_home"
+            android:theme="@style/Theme.AppCompat.NoActionBar"
+            tools:ignore="Instantiatable" />
+        <activity
+            android:name=".main_fragment"
+            android:theme="@style/Theme.AppCompat.NoActionBar" />
+    </application>
+
+</manifest>

@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "241798670429",
+    "project_id": "swsinternal-cd802",
+    "storage_bucket": "swsinternal-cd802.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:241798670429:android:25363d3905d3794f6285b4",
+        "android_client_info": {
+          "package_name": "com.app.mobiledev.sws"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "241798670429-mml3g8aqt1a804mahp0544c03cedpn5s.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.app.mobiledev.sws",
+            "certificate_hash": "1f7f7b5d3d0fd805248841b6b02481a71c4f56ee"
+          }
+        },
+        {
+          "client_id": "241798670429-3are6gk08bukrm8g2sadrpkapirvk3m9.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyArS05ORhOamii_YCgAIU8qTu7ga_6tLKo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "241798670429-3are6gk08bukrm8g2sadrpkapirvk3m9.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
